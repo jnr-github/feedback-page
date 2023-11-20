@@ -1,0 +1,37 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, white, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.feedback-container {
+  background-color: white;
+  height: 100%;
+  width: 70vw;
+}
+.happy-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  height: 15vh;
+  width: 20vw;
+}
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.para {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+}
